@@ -18,4 +18,4 @@ async def antiflood(*args, **kwargs):
     if m.chat.id == admin:
     	pass
     else:
-    	await m.answer("Сработал антифлуд! Прекрати флудить и жди 3 секунды.")
+    	await m.answer("The anti-flood worked! Stop flooding and wait 3 seconds.")
